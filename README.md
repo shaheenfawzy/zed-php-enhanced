@@ -12,12 +12,23 @@ Enhanced PHP syntax highlighting for [Zed](https://zed.dev) with colored built-i
 
 ## Installation
 
-1. Open Zed
-2. Open the Extensions panel (`cmd+shift+x` on macOS, `ctrl+shift+x` on Linux)
-3. Search for "PHP Enhanced"
-4. Click Install
+### Manual Installation
 
-**Note:** This extension replaces Zed's built-in PHP syntax highlighting. If you want to revert, simply uninstall this extension.
+**Linux:**
+```bash
+git clone https://github.com/shaheenfawzy/zed-php-enhanced.git \
+  ~/.local/share/zed/extensions/installed/php-enhanced
+```
+
+**macOS:**
+```bash
+git clone https://github.com/shaheenfawzy/zed-php-enhanced.git \
+  ~/Library/Application\ Support/Zed/extensions/installed/php-enhanced
+```
+
+After cloning, restart Zed. The enhanced PHP highlighting will be active automatically.
+
+**Note:** This extension replaces Zed's built-in PHP syntax highlighting. To revert, delete the `php-enhanced` folder from the extensions directory.
 
 ## What Gets Highlighted
 
